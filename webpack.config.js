@@ -17,10 +17,11 @@ module.exports = {
         }
       },
       {
-        test: /\.(css)$/,  // Cho phép import CSS
+        test: /\.(css|scss)$/,  // Cho phép import CSS
         use: [
             "style-loader", 
-            "css-loader"
+            "css-loader",
+            "sass-loader",
         ]
       },
       {

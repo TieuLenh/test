@@ -1,4 +1,3 @@
-import React from "react";
 const Slider = ({className='slider', ...props}) => {
     return(
         <div
